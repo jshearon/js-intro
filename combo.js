@@ -23,8 +23,8 @@ console.log(findOpposite(22));
 // Challenge 3
 
 const palindrome = (word) => {
-  const reversedWord = word.split('').reversed().join('');
-  if (word == reversedWord) {
+  const reversedWord = word.split("").reverse().join("");
+  if (word === reversedWord) {
     return true;
   } else {
     return false;
